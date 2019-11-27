@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Codix Games</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.min.css">
+</head>
+
+<body style="background-color: black">
+    <header class="barra">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="LOGO.png" alt=""></a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#juegos">JUEGOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#articulos">ARTÍCULOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#comunidad">COMUNIDAD</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="BUSCAR" aria-label="Search">
+                    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contenido">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="../imagen1.fin.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../imagen2.fin.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../imagen3.fin.png" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <section>
+            <h3 class="background double" id="articulos"><span>Artículos</span></h3>
+            <div class="blog-card">
+                <div class="meta">
+                    <div class="photo" style="background-image: url(../adnventure.jpg);"></div>
+                </div>
+                <div class="description">
+                    <h1>LANZAMIENTO DE TYPOMAN</h1>
+                    <h2>Opening a door to the future</h2>
+                    <p> En época apocaliptica nace un guerrero inmune al virus TCZ ,- EL CONTRA EL MUNDO - 16/12/2020</p>
+                </div>
+            </div>
+            <div class="blog-card alt">
+                <div class="meta">
+                    <div class="photo" style=" background-image: url(../imagen1.fin.png);"></div>
+                </div>
+                <div class="description">
+                    <h1>¿Cómo Jugar?</h1>
+                    <h2>¿PRONTO SERÁ UN JUEGO DE LAS ESPORT?</h2>
+                    <p>Sabes como se juega al tzar , desde este blog aprenderas rápido a jugar como un PRO</p>
+                </div>
+            </div>
+        </section>
+        <section class="juegos">
+            <h3 class="background double" id="juegos"><span>JUEGOS</span></h3>
+            <figure>
+                <img src="../BANNER.png" alt="banner de varios juegos">
+            </figure>
+        </section>
+        <section>
+            <h3 class="background double" id="comunidad"><span>COMUNIDAD</span></h3>
+            <div><img src="" alt=""></div>
+            <div><img src="" alt=""></div>
+            <div><img src="" alt=""></div>
+        </section>
+    </section>
+    <footer>
+        <section class="newsletter">
+            <button>SUSCRIBETE A NUESTRO NEWSLETTER</button>
+            <input type="text" placeholder="YOUR EMAIL">
+        </section>
+        <section class="social-media">
+            <ul>
+                <li><a href="#"><i class="fab fa-twitch" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </section>
+        <section class="information">
+            <p>ESTA PÁGINA WEB SE HA CREADO CON EL FIN DE REALIZAR UN PROYECTO DE TIC , NO ES UNA EMPRESA NI ES NADA , MUCHAS GRACIAS</p>
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
